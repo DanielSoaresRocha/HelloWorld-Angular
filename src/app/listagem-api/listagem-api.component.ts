@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListagemApiComponent implements OnInit {
 
+  filmes = [
+    { id: 1, name: 'Avengers', description: 'A description of Avengers' },
+    { id: 2, name: 'Mad Max', description: 'A description of Mad Max' }
+  ]
+
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit (): void {
   }
 
 }

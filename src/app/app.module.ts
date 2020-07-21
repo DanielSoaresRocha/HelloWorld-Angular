@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ListagemApiComponent } from './listagem-api/listagem-api.component';
+import { FilmeService } from './filme.service';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,7 @@ import { ListagemApiComponent } from './listagem-api/listagem-api.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [FilmeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
