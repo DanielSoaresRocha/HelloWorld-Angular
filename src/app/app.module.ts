@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http'
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -11,7 +12,8 @@ import { FilmeService } from './filme.service';
     ListagemApiComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [FilmeService],
   bootstrap: [AppComponent]

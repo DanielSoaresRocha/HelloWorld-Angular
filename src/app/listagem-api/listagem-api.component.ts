@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FilmeService } from '../filme.service';
 
 @Component({
   selector: 'app-listagem-api',
@@ -7,14 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListagemApiComponent implements OnInit {
 
-  filmes = [
-    { id: 1, name: 'Avengers', description: 'A description of Avengers' },
-    { id: 2, name: 'Mad Max', description: 'A description of Mad Max' }
-  ]
+  filmes: Array<any>;
 
-  constructor() { }
+  constructor(private filmeService: FilmeService) { }
 
   ngOnInit (): void {
+    this.listar();
   }
 
+  listar () {
+    this.filmeService.listar().subscribe(data => {
+      this.filmes = data.results
+      console.log(this.filmes)
+    })
+  }
 }
