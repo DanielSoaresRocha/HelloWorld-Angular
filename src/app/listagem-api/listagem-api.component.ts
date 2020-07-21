@@ -19,6 +19,7 @@ export class ListagemApiComponent implements OnInit {
   listar () {
     this.filmeService.listar().subscribe(data => {
       this.filmes = data.results
+
       // mudando url do filme para casar com a api
       this.filmes.map(filme => {
         filme.poster_path = `https://image.tmdb.org/t/p/w500${filme.poster_path}`

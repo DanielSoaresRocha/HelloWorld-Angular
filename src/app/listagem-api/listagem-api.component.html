@@ -1,9 +1,14 @@
-<p>listagem-api works!!!</p>
-
 <ul>
     <li *ngFor="let f of filmes">
-        {{f.title}} <br /><br /> {{f.overview}}
-        <br />
+        <div class="info">
+            <p>
+                {{f.title}}
+            </p>
+            <p>
+                {{f.overview}}
+            </p>
+        </div>
+
         <img [src]="f.poster_path" alt="Description" />
         <hr />
     </li>

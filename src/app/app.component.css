@@ -1,6 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .containerApp{
+    width: 100%;
+}
+
+.containerApp main{
+    margin: auto;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    align-items: center;
+    max-width: 1000px;
+}
+
+main h1, main h2{
+    align-self: center;
+    padding: 20px;
 }
