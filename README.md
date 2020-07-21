@@ -1,27 +1,67 @@
-# HelloWorldAngular
+<p align="center">
+    <img 
+    src='https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg' 
+    width='200px'
+    float='center'
+    />
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
+<h2 align="center">Hello World Angular 🌍</h2>
 
-## Development server
+### Objetivo deste projeto 📝
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Conhecer, estudar e familiarizar-se com o Framework de desenvolvimento Angular
 
-## Code scaffolding
+### O que foi feito? 🤔
+Foi criado meu primeiro projeto angular, com o foco de consumir uma API RESTful. A API escolhida foi da [<strong>TMDB</strong>](https://developers.themoviedb.org/3/getting-started/introduction)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<div align="center">
+    <img src="screenshots/print.png" alt="Screenshot1" width="100%">
+</div>
 
-## Build
+## Tecnologias usadas 📚
+- TMDB API
+- Angular
+- TypeScript
+- HTML5
+- CSS3
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Desenvolvimento 🎬
 
-## Running unit tests
+Clonando o repositório:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+https://github.com/DanielSoaresRocha/HelloWorld-Angular.git
+```
 
-## Running end-to-end tests
+Navegando até a pasta do repositório:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+cd HelloWorld-Angular/
+```
 
-## Further help
+Baixando as dependências
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+npm i
+```
+Rodando o projeto
+
+```
+npm start
+```
+
+## License 📝
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details.
+
+## Autor
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/DanielSoaresRocha"><img src="https://avatars0.githubusercontent.com/u/43214747?s=400&u=a267d113c5469b84bf87d202cdb7129330e4c865&v=4" width="100px;" alt="Daniel Soares"/><br /><sub><b>Daniel Soares</b></sub></a><br /><a href="https://github.com/DanielSoaresRocha/ESIG-challenge/commits?author=DanielSoaresRocha" title="Code">💻</a></td>
+  <tr>
+</table>
+
+
+
