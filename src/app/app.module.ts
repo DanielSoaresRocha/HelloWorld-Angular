@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ListagemApiComponent } from './listagem-api/listagem-api.component';
+import { ListagemApiComponent } from './pages/listagem-api/listagem-api.component';
 import { FilmeService } from './filme.service';
 import { AppRoutingModule } from './app-routing.module';
 

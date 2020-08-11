@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FilmeService } from '../filme.service';
+import { FilmeService } from '../../filme.service';
 
 @Component({
   selector: 'app-listagem-api',
