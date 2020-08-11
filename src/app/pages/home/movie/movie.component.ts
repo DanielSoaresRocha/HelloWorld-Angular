@@ -1,32 +1,25 @@
-import { Component, OnInit } from '@angular/core';
-import { FilmeService } from '../../../filme.service';
+import { Component, OnInit, Input } from '@angular/core';
+
+export interface Movie {
+  title: string;
+  overview: string;
+  poster_path: string;
+}
 
 @Component({
   selector: 'app-movie',
   templateUrl: './movie.component.html',
   styleUrls: ['./movie.component.css']
 })
+
 export class MovieComponent implements OnInit {
 
-  filmes: Array<any>;
-
-  constructor(private filmeService: FilmeService) { }
+  @Input() data: Movie = {
+    title: '',
+    overview: '',
+    poster_path: ''
+  };
 
   ngOnInit (): void {
-    this.listar();
   }
-
-  listar () {
-    this.filmeService.listar().subscribe(data => {
-      this.filmes = data.results
-
-      // mudando url do filme para casar com a api
-      this.filmes.map(filme => {
-        filme.poster_path = `https://image.tmdb.org/t/p/w500${filme.poster_path}`
-        return filme
-      })
-      console.log(this.filmes)
-    })
-  }
-
 }

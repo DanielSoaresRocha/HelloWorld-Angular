@@ -1,15 +1,12 @@
-<ul>
-    <li *ngFor="let f of filmes">
-        <div class="info">
-            <p>
-                {{f.title}}
-            </p>
-            <p>
-                {{f.overview}}
-            </p>
-        </div>
+<div class='container-movie'>
+    <div class="info">
+        <p>
+            {{data.title}}
+        </p>
+        <p>
+            {{data.overview}}
+        </p>
+    </div>
 
-        <img [src]="f.poster_path" alt="Description" />
-        <hr />
-    </li>
-</ul>
+    <img [src]="data.poster_path" alt="Description" />
+</div>
