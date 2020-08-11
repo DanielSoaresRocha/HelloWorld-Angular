@@ -22,6 +22,8 @@ export class MovieComponent implements OnInit {
     vote_average: ''
   };
 
+  constructor() { }
+
   ngOnInit (): void {
   }
 }
