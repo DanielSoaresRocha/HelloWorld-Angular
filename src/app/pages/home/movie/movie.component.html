@@ -6,6 +6,11 @@
         <p>
             {{data.overview}}
         </p>
+
+        <div class="vote">
+            <div class="star"></div>
+            <span>{{data.vote_average}}</span>
+        </div>
     </div>
 
     <img [src]="data.poster_path" alt="Description" />
