@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ListagemApiComponent } from './listagem-api.component';
+import { ListagemApiComponent } from './home.component';
 
 describe('ListagemApiComponent', () => {
   let component: ListagemApiComponent;
@@ -8,9 +8,9 @@ describe('ListagemApiComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ListagemApiComponent ]
+      declarations: [ListagemApiComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

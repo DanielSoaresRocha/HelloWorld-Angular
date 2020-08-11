@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { FilmeService } from '../../filme.service';
 
 @Component({
-  selector: 'app-listagem-api',
-  templateUrl: './listagem-api.component.html',
-  styleUrls: ['./listagem-api.component.css']
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
 })
-export class ListagemApiComponent implements OnInit {
+export class HomeComponent implements OnInit {
 
   filmes: Array<any>;
 

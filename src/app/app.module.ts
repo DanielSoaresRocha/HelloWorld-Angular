@@ -3,14 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ListagemApiComponent } from './pages/listagem-api/listagem-api.component';
+import { HomeComponent } from './pages/home/home.component';
 import { FilmeService } from './filme.service';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListagemApiComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
